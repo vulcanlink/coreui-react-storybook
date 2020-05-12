@@ -15,9 +15,13 @@ const themes = [
 ]
 
 const base = [
+    { component: 'Base/Breadcrumb', story: 'Default', name: 'Breadcrumb' },
     { component: 'Base/Cards', story: 'Card', name: 'Card' },
+    { component: 'Base/Forms', story: 'Default', name: 'Forms' },
     { component: 'Base/ListGroup', story: 'Default', name: 'ListGroup' },
+    { component: 'Base/Navs', story: 'Default', name: 'Navs' },
     { component: 'Base/Tables', story: 'Table', name: 'Tables' },
+    { component: 'Base/Sidebar', story: 'Default', name: 'Sidebar' },
 ]
 
 const buttons = [

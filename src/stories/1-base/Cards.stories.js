@@ -41,7 +41,7 @@ export const Card = () => CardGen({ title: 'Card title', body: placeholderText }
 
 Card.story = {
     parameters: {
-        notes: 'Card.',
+        notes: 'React cards component provide a flexible and extensible container for displaying content. React cards are delivered with a bunch of variants and options.',
     },
     decorators: [withKnobs]
 };
