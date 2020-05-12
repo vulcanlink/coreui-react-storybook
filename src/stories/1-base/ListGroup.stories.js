@@ -1,8 +1,6 @@
 import React from 'react';
-import { action } from '@storybook/addon-actions';
-import { CButton, CCard, CCardHeader, CCardBody, CRow, CCol, CContainer, CBadge, CListGroup, CListGroupItem } from '@coreui/react'
-import { withCenter } from '../Center'
-import { withKnobs, select, boolean } from "@storybook/addon-knobs";
+import { CCard, CCardHeader, CCardBody, CListGroup, CListGroupItem } from '@coreui/react'
+import { select, boolean } from "@storybook/addon-knobs";
 import { listData } from '../data'
 
 export default {

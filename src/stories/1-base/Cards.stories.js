@@ -1,7 +1,5 @@
 import React from 'react';
-import { action } from '@storybook/addon-actions';
-import { CButton, CCard, CCardHeader, CCardBody, CRow, CCol, CContainer, CBadge } from '@coreui/react'
-import { withCenter } from '../Center'
+import { CCard, CCardHeader, CCardBody, CRow, CCol, CContainer, CBadge } from '@coreui/react'
 import { withKnobs, select, boolean } from "@storybook/addon-knobs";
 
 import { placeholderText } from '../data';
@@ -39,7 +37,7 @@ const CardGen = ({ title, body }) => {
     </CContainer>)
 }
 
-export const Card = () => CardGen({ title: 'Card title', body: placeholder })
+export const Card = () => CardGen({ title: 'Card title', body: placeholderText })
 
 Card.story = {
     parameters: {
