@@ -1,11 +1,7 @@
 # CoreUI v3 Storybook
 Deployed at [vulcanlink.github.io/coreui-react-storybook](https://vulcanlink.github.io/coreui-react-storybook/)
 
-# React Starter Project
-Built with https://www.sitepoint.com/react-with-typescript-best-practices/
-
-Leo's React starter project.
-After working on many React projects, I've decided to fork all new projects from this starter repo. Created with create-react-app + additional features using eslint + flow. Husky enables pre-commit formatting/tests ensuring consistent styling. Also featured quick deployment using gh-pages.
+CoreUI Storybook Welcome to CoreUI v3 Storybook! Fork the storybook to theme your own CoreUI components. If you're not familiar with CoreUI or Storybook, feel free to checkout the [CoreUI Docs](https://coreui.io/react/docs/)> and [Storybook Docs](https://storybook.js.org/docs/basics/introduction/).
 
 ## Getting Started
 
@@ -22,10 +18,10 @@ $ yarn
 Clone this repo and add it as an upstream to start theming your components.
 Folow the steps below
 ```
-$ git clone https://github.com/leovigna/react-starter-ts.git myproject
-$ cd myproject
-$ git remote set-url origin https://github.com/leovigna/myproject.git
-$ git remote add upstream https://github.com/leovigna/react-starter-ts.git
+$ git clone https://github.com/vulcanlink/coreui-react-storybook.git PROJECT_NAME
+$ cd PROJECT_NAME
+$ git remote set-url origin https://github.com/USERNAME/PROJECT_NAME.git
+$ git remote add upstream https://github.com/vulcanlink/coreui-react-storybook.git
 $ git push origin master
 $ git push --all
 ```
@@ -47,7 +43,7 @@ $ yarn -D
 ```
 
 ### Deployment
-Deployed to []() using `gh-pages`.
+Deployed to [vulcanlink.github.io/coreui-react-storybook](https://vulcanlink.github.io/coreui-react-storybook) using `gh-pages`.
 
 ```
 $ yarn deploy
